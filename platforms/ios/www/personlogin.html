@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>NuPal</title>
+    </head>
+    <body>
+        <div >
+            <h1>NuPal</h1>
+           <div>
+               <label>Name:
+                   <input id="register_name" name="name" type="text"
+                       placeholder="Enter your name" autofocus required size="20">
+                       </label>
+               <br>
+               <label>Last Name:
+                   <input id="register_last_name" name="name" type="text"
+                       placeholder="Enter your name" autofocus required size="20">
+                       </label>
+               
+               <br>
+               <label>Email address:
+                   <input id="register_email" name="email" type="email"
+                       placeholder="Enter your email address" required multiple size="20">
+                       </label>
+               <br>
+               <label>Password:
+               <input id="register_password" name="password" type="password"
+                   placeholder="enter your password" autofocus required size="20">
+                   </label>
+               
+               <br>
+               <label>Confirm Password:
+                   <input id="register_confirm_password" name="password" type="password"
+                       placeholder="enter your password" autofocus required size="20">
+                       </label>
+               <br>
+               <label>
+                   <input  type="radio" name="sex" value="male">Male
+                       <input type="radio" name="sex" value="female">Female
+                           
+              <br>
+               </label>
+                       DOB:
+                       <input id="register_dob_checkbox "type="date" name="bday">
+               </div>
+            <div >
+                
+                
+                <button onclick=" ">submit</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
